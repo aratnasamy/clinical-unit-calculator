@@ -1,0 +1,64 @@
+body {
+    color: black;
+    border-color: black;
+}
+
+input {
+        font-size: 1.5rem;
+        width: 8.5rem;
+        height: 2rem;
+        text-align: center;
+}
+input[validation-state="warning"] {
+    outline: 2px solid red;
+}
+
+hr {
+    width: 100%;
+}
+
+.createButton {
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.apptTimeRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 5rem;
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+.breakRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    height: 11rem;
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 37.5%;
+    /* height: 11rem; */
+    border: 2px solid;
+    border-radius: 1rem;
+}
+
+.headerBig {
+    font-size: 1.5rem;
+    margin: 0.25rem;
+}
